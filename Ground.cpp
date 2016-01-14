@@ -4133,7 +4133,7 @@ bool TGround::CheckQuery()
                     if (tmpEvent->iFlags & update_memadd) // jeœli typ pojazdu
                         tmpEvent->Params[9].asMemCell->UpdateValues(
                             tmpEvent->Activator->MoverParameters->TypeName.c_str(), // typ pojazdu
-                            0, // na razie nic
+                            tmpEvent->Activator->Mechanik ? (tmpEvent->Activator->Controller != Humandriver ? 2 : 1) : 0, // kononowicz24@2016-01-12: prowadzacy pojazd
                             0, // na razie nic
                             tmpEvent->iFlags &
                                 (update_memstring | update_memval1 | update_memval2));

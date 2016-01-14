@@ -3,7 +3,7 @@
 <PROJECT>
   <MACROS>
     <VERSION value="BCB.05.03"/>
-    <PROJECT value="E:\Gry\MaSzyna_15_04\EU07.exe"/>
+    <PROJECT value="G:\maszyna_test\MaSzyna_15_04\EU07.exe"/>
     <OBJFILES value="QueryParserComp.obj McZapkie\mtable.obj McZapkie\_mover.obj 
       McZapkie\hamulce.obj EU07.obj dumb3d.obj Camera.obj Texture.obj World.obj 
       Model3d.obj MdlMngr.obj Train.obj wavread.obj Timer.obj Event.obj 
